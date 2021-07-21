@@ -6,17 +6,11 @@ class SomeMethodsTest {
 
 	@Test
 	void testWeight_index() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testGet_weight() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testGet_height() {
-		fail("Not yet implemented");
+		assertEquals(SomeMethods.weight_index(9, 3), 1);
+		assertEquals(SomeMethods.weight_index(25, 5), 1);
+		assertEquals(SomeMethods.weight_index(4, 2), 1);
+		assertEquals(SomeMethods.weight_index(16, 4), 1);
+		
 	}
 
 }
